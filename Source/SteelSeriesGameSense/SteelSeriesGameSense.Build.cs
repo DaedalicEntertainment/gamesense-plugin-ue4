@@ -14,7 +14,8 @@ namespace UnrealBuildTool.Rules
         {
             bEnforceIWYU = false;
             PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-
+            bEnableExceptions = true;
+			
             PublicDependencyModuleNames.AddRange(
                 new string[]
                 {
